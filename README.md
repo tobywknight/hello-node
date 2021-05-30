@@ -9,4 +9,3 @@ Hello Node is a simple web server built using Node.js and the Express framework 
 I followed this article:
 https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
 
-
