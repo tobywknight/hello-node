@@ -2,12 +2,29 @@
 
 const express = require('express');
 
+const bodyParser = require('body-parser');
+
 // Constants
 const PORT = 8080;
 const HOST = '0.0.0.0';
 
 // App
 const app = express();
+
+app.get('/api/nights', function(req, res){
+  res.json(data.Items.map(function(element, index, array) {
+    return {
+      name: "arabian",
+      item: 
+      {
+        location: "arabia",
+        temperature: "warm, balmy",
+        era: "medieval",
+        number: 1001
+      }
+    }
+  }
+}
 app.get('/', (req, res) => {
   res.send('Hello World');
 });
